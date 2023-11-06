@@ -1,4 +1,2 @@
 # ansible-config-mgt 
  
-   
-  
