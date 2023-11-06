@@ -15,7 +15,10 @@ ssh-add prometheus.pem
 ssh -A ec2-user@54.91.47.28
 
 
-
+ssh -A ec2-user@172.31.23.13
+ssh -A ec2-user@172.31.19.155
+ssh -A ec2-user@172.31.30.221
+ssh -A ubuntu@172.31.23.169
 
 
 
