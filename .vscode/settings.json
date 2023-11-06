@@ -1,6 +1,0 @@
-{
-    "yaml.schemas": {
-        "https://raw.githubusercontent.com/ansible/ansible-lint/main/src/ansiblelint/schemas/inventory.json": "file:///c%3A/Users/Eng.Ahmed/Desktop/to%20do/project10/inventory/inventoryDev.yaml"
-    },
-    "ansible.python.interpreterPath": "c:\\Python311\\python.exe"
-}
