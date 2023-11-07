@@ -1,2 +1,2 @@
-- hosts: all
+- hosts: *
 - import_playbook: ../static-assignments/common.yml
