@@ -5,6 +5,9 @@ export PS1="\e[32;40m[Nginx-LB@ \W]# \e[m "
 
 alias c='clear'
 
+sudo chmod a+rwx /home/ubuntu ## to can any user access files (specific jenkins)
+
+
 
 chmod  400 prometheus.pem
 
@@ -13,7 +16,7 @@ ssh-add prometheus.pem
 
 
 ssh -A ec2-user@54.91.47.28
-
+sudo chmod a+rwx /home/ubuntu ## to can any user access files (specific jenkins)
 
 ssh -A ec2-user@172.31.23.13
 ssh -A ec2-user@172.31.19.155
