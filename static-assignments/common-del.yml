@@ -4,10 +4,10 @@
   become: yes
   become_user: root
   tasks:
-  - name: ensure wireshark is at the latest version
+  - name: delete wireshark
     yum:
       name: wireshark
-      state: latest
+      state: removed
 
 - name: update db server
   hosts: db
@@ -15,11 +15,10 @@
   become: yes
   become_user: root
   tasks:
-  - name: Update apt repo
+  - name: delete wireshark
     apt:
-      update_cache: yes
-
-  - name: ensure wireshark is at the latest version
-    apt:
-      name: wireshark
-      state: latest
+      name: wireshark-qt
+      state: absent
+      autoremove: yes
+      purge: yes
+      autoclean: yes
