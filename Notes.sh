@@ -4,7 +4,7 @@ export PS1="\e[32;40m[Nginx-LB@ \W]# \e[m "
 
 
 alias c='clear'
-
+ 
 sudo chmod a+rwx /home/ubuntu ## to can any user access files (specific jenkins)
 
 
