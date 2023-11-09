@@ -1,13 +1,17 @@
 export PS1="\e[30;45m[jenkins&Ansible@ \W]# \e[m "
-export PS1="\e[36;40m[NFS@ \W]# \e[m "
+export PS1="\e[36;40m[NFS@ \W]# \e[m " 
 export PS1="\e[32;40m[Nginx-LB@ \W]# \e[m "
 
 
 alias c='clear'
 
 sudo chmod a+rwx /home/ubuntu ## to can any user access files (specific jenkins)
-
-
+sudo chmod a+rwx /home/ubuntu
+sudo chown root:root /home
+sudo chmod 755 /home
+sudo chown ubuntu:ubuntu /home/ubuntu -R
+sudo chmod 700 /home/ubuntu /home/ubuntu/.ssh
+sudo chmod 600 /home/ubuntu/.ssh/authorized_keys
 
 chmod  400 prometheus.pem
 
